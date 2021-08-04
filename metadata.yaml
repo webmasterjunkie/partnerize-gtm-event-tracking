@@ -1,0 +1,5 @@
+homepage: "https://partnerize.com/en"
+documentation: "https://github.com/webmasterjunkie/partnerize-gtm-event-tracking/blob/master/README.md"
+versions:
+  - sha:
+    changeNotes: Initial release.
