@@ -1,0 +1,1 @@
+# partnerize-gtm-event-tracking
