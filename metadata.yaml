@@ -1,5 +1,9 @@
 homepage: "https://partnerize.com/en"
 documentation: "https://github.com/webmasterjunkie/partnerize-gtm-event-tracking/blob/master/README.md"
 versions:
+  # Latest version
+  - she: 253d311e10f77e77b01e3d39b24155b33bc13725
+    changeNotes: Add cookie storage for cross domain support
+  # Older versions
   - sha: 7c2081dea130c2767bd86b37acca309d7ffa5b4e
     changeNotes: Initial release.
