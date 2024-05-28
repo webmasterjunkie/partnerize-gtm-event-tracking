@@ -144,7 +144,7 @@ const localStorage = require('localStorage');
 
 const localStorageID = 'partnerizeClickReference';
 
-let partnerize = 'https://prf.hn/conversion/';
+let partnerize = 'https://prf.hn/conversion/tmethod:1/tplatform:4/tdetail:10/';
 
 if (data.conversionDataTable.length > 0){
   data.conversionDataTable.forEach(addConversionParameter);
