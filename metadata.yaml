@@ -2,9 +2,11 @@ homepage: "https://partnerize.com/en"
 documentation: "https://github.com/webmasterjunkie/partnerize-gtm-event-tracking/blob/master/README.md"
 versions:
   # Latest version
+  - sha: e292f5ede12a7869eb917288f76f72a0da37771f
+    changeNotes: Handle `undefined` values in custom payloads
+  # Older versions
   - sha: ae347da5d703b9e6d92ec81872bba2ab5ae21e6b
     changeNotes: Add custom tracking domain option
-  # Older versions
   - sha: 3ae20ef6e730748f1eabd8ceb2b88544b51a68e2
     changeNotes: Add additional metrics for reporting
   - sha: 253d311e10f77e77b01e3d39b24155b33bc13725
