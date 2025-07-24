@@ -264,7 +264,9 @@ function parseConversionItemArray(products){
 
     for (const key in item){
       if (matches.indexOf(key) === -1){
-        partnerize = partnerize + formatParameter(key) + ':' + encodeUriComponent(item[key].toString()) + '/';
+        if (item[key]) {
+          partnerize = partnerize + formatParameter(key) + ':' + encodeUriComponent(item[key].toString()) + '/';
+        }
       }
     }
 
